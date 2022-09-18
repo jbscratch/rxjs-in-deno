@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "rxjs-port": "deno run rxjs-port.ts"
+    }
+}
