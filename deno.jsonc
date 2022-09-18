@@ -6,5 +6,6 @@
         "rxjs-npm": "deno --unstable run rxjs-npm.ts",
         // Broken in Linter, but works when running
         "rxjs-deps": "deno --unstable run rxjs-npm-via-deps.ts"
-    }
+    },
+    "importMap": "importMap.json"
 }
