@@ -5,7 +5,7 @@ From the second task on it also shows a bug in the deno linter with the new `npm
 
 ## Usage 
 
-Simply run the following commands: 
+Simply run the following commands (and see the sourcecode of the tasks to see the linter problem): 
 
 ```
 // Works (but unrelated to `npm:` style imports)
