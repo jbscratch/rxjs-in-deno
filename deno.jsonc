@@ -1,11 +1,13 @@
 {
     "tasks": {
         // Works
-        "rxjs-port": "deno run rxjs-port.ts",
+        "rxjs-01": "deno run 01_rxjs-port.ts",
         // Works
-        "rxjs-npm": "deno --unstable run rxjs-npm.ts",
+        "rxjs-02": "deno --unstable run 02_rxjs-npm.ts",
         // Broken in Linter, but works when running
-        "rxjs-deps": "deno --unstable run rxjs-npm-via-deps.ts"
+        "rxjs-03": "deno --unstable run 03_rxjs-npm-via-deps.ts",
+        // Broken in Linter, but works when running
+        "rxjs-04": "deno --unstable run 04_rxjs-npm-via-import-map.ts"
     },
     "importMap": "importMap.json"
 }
