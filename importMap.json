@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@/": "./",
     "rxjs": "./deps/rxjs.ts"
   }
 }

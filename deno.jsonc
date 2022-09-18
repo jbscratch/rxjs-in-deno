@@ -7,7 +7,9 @@
         // Broken in Linter, but works when running
         "rxjs-03": "deno --unstable run 03_rxjs-npm-via-deps.ts",
         // Broken in Linter, but works when running
-        "rxjs-04": "deno --unstable run 04_rxjs-npm-via-import-map.ts"
+        "rxjs-04": "deno --unstable run 04_rxjs-npm-via-import-map.ts",
+        // Broken in Linter, but works when running
+        "rxjs-05": "deno --unstable run 05_rxjs-npm-via-import-map-absolute-path.ts"
     },
     "importMap": "importMap.json"
 }
